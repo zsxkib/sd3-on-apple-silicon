@@ -1,3 +1,14 @@
+# Custom
+/sd3-cache/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,8 @@
+torch>=2.0.0
+diffusers
+transformers
+huggingface-hub
+protobuf
+sentencepiece
+accelerate
+psutil
