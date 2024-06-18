@@ -29,7 +29,7 @@ seed = None
 if seed is None:
     seed = int.from_bytes(os.urandom(2), "big")
 print(f"Using seed: {seed}")
-generator = torch.Generator(device=device).manual_seed()
+generator = torch.Generator(device=device).manual_seed(seed)
 
 start_time = time.time()
 with torch.device(device):
